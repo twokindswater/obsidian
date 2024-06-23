@@ -347,7 +347,7 @@ Q. Which mode of VPC Service Controls should you employ when enabling it and all
 
 A. **Dry Run**
 
-Q. To comply with PCI DSS requirements, a client seeks to enforce authorization for all outgoing traffic. Which two cloud services fulfill this demand without requiring supplementary compensating measures? (Select two.)
+Q. To comply with PCI DSS requirements, a client seeks tol enforce authorization for all outgoing traffic. Which two cloud services fulfill this demand without requiring supplementary compensating measures? (Select two.)
 
 A. Compute Engine
 
