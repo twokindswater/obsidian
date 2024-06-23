@@ -297,7 +297,6 @@ A.
 Q. Your team is tasked with organizing the Google Cloud Platform (GCP) environment to consolidate control over networking components such as firewall rules, subnets, and routes. Additionally, there is an on-premises infrastructure requiring connectivity to GCP resources through a private VPN connection. The network security team is responsible for overseeing these networking resources. What type of networking design should your team employ to fulfill these requirements?
 
 A. **Shared VPC Network with a host project and service projects**
-
 centralize the control → Shared VPC
 
 Q. To balance the load across multiple instances running the application and ensure a secure TLS connection terminated by the Load Balancer for an application implemented on Compute Engine, accessed by clients on port 587, which type of Load Balancing should be utilized?
