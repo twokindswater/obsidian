@@ -1,3 +1,8 @@
+---
+cssclasses:
+  - my_style_width_100
+---
+
 Problems
 
 Google
@@ -38,11 +43,11 @@ Udemy
 - **firewall 설정할때 특정 service account 를 allow/deny 할 수 있음.**
 - Cloud Armor에는 정책을 update 하기 전에 impact을 미리 볼 수 있는 preview-mode 를 지원함.
 
-|기능|VPC Flow Logs|Packet Mirroring|Cloud Audit Logs|
-|---|---|---|---|
-|캡처 데이터|VPC 내부 네트워크 트래픽 메타데이터|네트워크 패킷 데이터|API 호출 및 리소스 변경|
-|사용 사례|성능 모니터링(기본적인 분석), 보안 분석, 비용 최적화|심층 보안 분석, 성능 모니터링|컴플라이언스, 보안 분석, 변경 관리|
-|특징|실시간 로그 수집, 로그 분석 도구 통합|실시간 패킷 캡처, 외부 분석 도구 통합|모든 API 호출 추적, 로그 분석 도구 통합|
+| 기능     | VPC Flow Logs                   | Packet Mirroring       | Cloud Audit Logs          |
+| ------ | ------------------------------- | ---------------------- | ------------------------- |
+| 캡처 데이터 | VPC 내부 네트워크 트래픽 메타데이터           | 네트워크 패킷 데이터            | API 호출 및 리소스 변경           |
+| 사용 사례  | 성능 모니터링(기본적인 분석), 보안 분석, 비용 최적화 | 심층 보안 분석, 성능 모니터링      | 컴플라이언스, 보안 분석, 변경 관리      |
+| 특징     | 실시간 로그 수집, 로그 분석 도구 통합          | 실시간 패킷 캡처, 외부 분석 도구 통합 | 모든 API 호출 추적, 로그 분석 도구 통합 |
 
 - **Access transparency log** 는 google의 운영자가 고객의 콘텐츠에 접근할 때마다 그 활동을 기록하는 로그입니다.
 - **Deterministic encryption**은 동일한 입력 값에 대해 항상 동일한 암호 텍스트를 생성하는 암호화 방법입니다.
@@ -87,188 +92,12 @@ Udemy
 | 설명    | 온프레미스 네트워크 또는 다른 클라우드 제공자의 네트워크를 GCP의 VPC 네트워크에 안전하게 연결할 수 있는 서비스 | GCP 프로젝트 간에 VPC 네트워크를 공유할 수 있는 기능 | 두개의 GCP VPC 네트워크를 상호 연결하여 서로의 리소스에 접근 |
 | 주요 용도 | 온프레미스 네트워크 연결                                                     | 여러 프로젝트 간 네트워크 공유                 | VPC 네트워크 간 상호 연결                      |
 
-|기능/특징|network security|cloud armor|
-|---|---|---|
-|목적|네트워크 레벨 보안 및 관리|웹 애플리케이션 방어 및 DDoS 방어|
-|구성 요소 및 서비스|VPC 방화벽, Cloud VPN, IAM, IAP 등|WAF 규칙, DDoS 방어, 맞춤형 보안 정책|
+| 기능/특징       | network security               | cloud armor                |
+| ----------- | ------------------------------ | -------------------------- |
+| 목적          | 네트워크 레벨 보안 및 관리                | 웹 애플리케이션 방어 및 DDoS 방어      |
+| 구성 요소 및 서비스 | VPC 방화벽, Cloud VPN, IAM, IAP 등 | WAF 규칙, DDoS 방어, 맞춤형 보안 정책 |
 
-comprise ~으로 구성되다
 
-consolidate 통합하다
-
-versatile 다재다능한
-
-directive 지시, 명령
-
-leverage 영향력
-
-eligible 자격이있는
-
-mandate 위임장
-
-anonymize 익명으로 하다.
-
-obstruct 막다
-
-retain 유지하다. Preclude 배제하다.
-
-assessment 평가
-
-elastic 탄력이 있는
-
-inherent 고유의
-
-delegate 대리자, 특파하다, 위임하다.
-
-delegation 대표단, 위임
-
-redundant 불필요한, 중복된
-
-Pseudonymization 가명화
-
-pertinent 적절한
-
-imperative 반드시 해야하는
-
-possess 소유하다
-
-reconcile 조정하다
-
-migrates 이동하다
-
-corresponding 상응하는
-
-tailored 맞춤형
-
-permissive 허용적인
-
-suspend 중단하다
-
-recurring 반복되는
-
-encompasses 포함하다
-
-federation 연합
-
-retrieval 회복, 검색
-
-constraint 제약, 통제
-
-immutable 변경할수없는
-
-intention 의사, 의도
-
-revoke 취소, 취소하다
-
-autonomously 자율적으로, 자체적으로
-
-criteria 기준
-
-audit 심사, 감시
-
-constant 끊임없는
-
-publicly 공개적으로
-
-Granular 세분화된
-
-straightforward 똑바로, 간단한, 솔직한
-
-Uphold 받치다, 유지하다
-
-segregation 분리
-
-precise 정밀한
-
-Unless ~하지 않는한
-
-proctor 감독관
-
-onsite 현장의
-
-formulate 공식화하다
-
-compromise 타협, 더럽히다
-
-perimeters 둘레
-
-exfiltration 유출 exfiltrate 유출하다
-
-mitigate 완화시키다
-
-irrespective 관계없이
-
-respective 각각의
-
-upholding 지지하다
-
-referential 참고의
-
-apprehensive 걱정되는, 불안한
-
-extensive 대규모의
-
-pertinent 적절
-
-compliance 규정 준수
-
-mandate 위임장
-
-basis 근거, 이유, 기준
-
-redaction : 편집
-
-segments : 구획, 분활하다.
-
-oversee 감독하다
-
-corporate 기업의, 회사의
-
-adhere 준수하다. 집착하다. 들러붙다
-
-inquiring 미심쩍은, 탐구적인
-
-redact 수정하다
-
-leading 주요한
-
-disruption 분열
-
-swiftly 신속하게
-
-compromising 타협하여 해결짓다.
-
-facilitate 가능하게 하다
-
-Subsequently 그 뒤에, 나중에
-
-objective 목적, 목표
-
-feasible 실현가능한
-
-explicit 분명한
-
-privileges 특권
-
-incorporates 통합하다
-
-adequately 적절하게
-
-malicious 악의적인
-
-arbitrary 임의적인
-
-victim 피해자
-
-contextual 상황에 맞는
-
-vulnerabilities 취약점
-
-seamlessly 원활하게
-
-fortify 확고히 하다
-
-comprehensive 포괄적인
 
 [examtopics](https://www.notion.so/examtopics-d91833db80764dce9a8956d7bfd38914?pvs=21)
 
@@ -489,3 +318,91 @@ A.
 **1. Export logs in each dev project to a Cloud Pub/Sub topic in a dedicated SIEM project.**
 
 **2. Subscribe SIEM to the topic.**
+
+Q. TrendyTech recently experienced a security incident where an unauthorized user accessed internal resources. To prevent similar incidents, you need to implement a more robust access control strategy for Cloud SQL. What is the best approach considering TrendyTech's existing application architecture and user groups?
+
+A. Leverage Cloud Identity & Access Management (IAM) to define separate roles with granular permissions for different user groups like developers, QA testers, and database administrators.
+
+Q.A mobile workforce uses a variety of devices to access cloud applications. The security team wants to grant access based on whether the device is corporate-managed and meets certain security standards. Which Access Context Manager feature should they use?
+A.Custom access levels using Common Expression Language.
+
+Q.You want to limit network access to your GKE pods for enhanced security. Which strategies can you use?
+A.Utilize pod security policies to restrict privileged containers and host volume mounts.
+Implement service accounts with limited permissions for pods to access external resources.
+Configure network policies to define inbound and outbound traffic rules for pods.
+
+Q."TrendyTech," the rapidly growing e-commerce platform, needs to manage access to sensitive customer data stored in Cloud Storage buckets. Their development team requires read access for analytics, while customer support needs limited read access for order-related tasks. Choose the best solutions for each scenario:
+
+To ensure auditability and maintain a record of user activity within Cloud Storage buckets, TrendyTech should:
+A. Enable Cloud Logging for centralized logging of all bucket access attempts and data modifications.
+
+Q.**Company "FinTech Solutions" exposes financial APIs through Cloud API Gateway and needs to balance security with performance. Choose the best approach for each situation:**
+
+"FinTech Solutions" relies heavily on API keys for user authentication. How can they mitigate the risks associated with API keys?
+A. Encrypt API keys in transit using HTTPS but store them unencrypted at rest within the application.
+Rotate API keys regularly and implement short-lived access tokens to minimize exposure time.
+
+Q. You need to ensure that incident response activities are logged and audited for compliance purposes. What GCP service provides detailed audit logs for incident response activities?
+A. Cloud Security Command Center (Cloud SCC)
+
+Q.A cloud security manager wants to audit who has permission to delete virtual machines in a specific Google Cloud project. They need to identify all principals with this capability. Which feature of Policy Analyzer should they utilize to find this information?
+A. Run a query specifying the permission for VM deletion and the project scope.
+
+Q.Your company stores sensitive financial data in Cloud Storage buckets. To comply with industry regulations and protect data at rest, what should you implement?
+A.Server-side encryption with Cloud Key Management Service (KMS) for centralized key management.
+
+Q. Your company develops and deploys microservices using Google Kubernetes Engine (GKE). To protect container images from unauthorized access and tampering, what security measures should you prioritize?
+A. Store container images in Cloud Storage buckets with no public access for easy deployment.
+Encrypt container images with Cloud Key Management Service (KMS) before storing them in the Container Registry.
+Implement Binary Authorization to enforce image signature verification before deployment.
+
+Q. You need to ensure that an Azure VM using a managed identity can obtain Google Cloud credentials. Which attribute should you primarily use as the subject identifier in Google Cloud for Azure VMs?
+A. The managed identity ID.
+
+Q. Your project requires automated tools to use credentials from an AWS EC2 instance to access Google Cloud services. How can these tools automatically obtain the external credentials?
+A. Through a credential configuration file that points to the workload identity pool and provider.
+
+Q. Your organization is deploying applications on GKE across multiple regions, and you want to ensure low-latency communication between clusters. What GCP service can you use to connect GKE clusters in different regions securely?
+A. Anthos Service Mesh
+
+Q. Your company is looking for a cost-effective MFA solution that can integrate with Google Cloud. What is a recommended cost-effective MFA method for GCP?
+A. SMS-based codes
+
+Q. An organization needs to understand which users and groups have access to modify a particular BigQuery dataset containing sensitive data. They want to ensure the audit captures all potential access, including indirect permissions through groups. What option should they enable in their Policy Analyzer query?
+A. Group expansion to list all individual group members.
+
+Q. Your company has resources spread across multiple cloud projects and wants to ensure that data does not leak outside of these environments. What feature of Access Context Manager would best meet this requirement?
+A. Service perimeters defining sandboxes of resources.
+
+Q. Your company plans to use AWS EC2 instance profiles to authenticate to Google Cloud services without managing service account keys. What is the first step to enable this integration?
+A. Configure a workload identity pool in Google Cloud.
+
+Q.Your critical API endpoint experiences a sudden surge in traffic. How can you differentiate between a legitimate traffic spike and a DDoS attack?
+A. Leverage Cloud Armor's rate limiting and IP blacklisting features to mitigate the traffic surge.
+Implement Cloud Monitoring anomaly detection to automatically alert on unusual API activity.
+Analyze traffic patterns and identify anomalies in request volume and origin.
+
+Q. Your company's security team suspects a potential malware infection within a Compute Engine VM. To investigate and remediate the threat, what steps should you take?
+A. Use Cloud Logging to analyze VM logs for suspicious activity and identify the malware origin.
+Immediately shut down the VM to prevent further spread of malware.
+Deploy a Cloud Armor security policy to block network traffic from the infected VM.
+
+Q. After setting up a workload identity pool, what is the next step to allow an external workload from AWS to authenticate to Google Cloud using the pool?
+A. Create a service account in Google Cloud to represent the workload.
+
+Q. To detect and prevent unauthorized access attempts to GCP resources, what security feature should you enable?
+A. Context-aware access (CAA) to evaluate user and device context before granting access.
+Security Health Analytics (SHA) for detailed logs of user activities and access events.
+Cloud Security Command Center (SCC) for security-related insights and threat detection.
+
+Q. Your company has a large number of employees and contractors with varying levels of access to GCP resources. To simplify access management and reduce security risks, what should you implement?
+A. Leverage Google Groups to group users with similar access needs and assign IAM roles to groups instead of individual users.
+Integrate with Active Directory using Cloud Identity for seamless user authentication and authorization.
+
+Q. TrendyTech's application relies heavily on real-time analytics for customer behavior insights. The application continuously reads and writes data to Cloud Storage buckets containing sensitive customer purchase records. How can you secure this data transfer while maintaining performance and scalability?
+A. Encrypt data at rest in Cloud Storage buckets using Cloud Key Management Service (KMS) and implement server-side encryption for data in transit using HTTPS and IAM permissions.
+DLP는 데이터 내용만 보호해준다는 한계가 존재. 데이터 전송 및 보안과 관련된 내용은 KMS & HTTPS & IAM
+
+Q. You are setting up an App Engine project and want to ensure that users can sign in using various providers through Identity Platform. What should be your first step after creating a new Google Cloud project?
+A. Enable Identity Platform in the Google Cloud Marketplace.
+
