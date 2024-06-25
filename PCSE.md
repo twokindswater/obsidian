@@ -495,14 +495,14 @@ A. Place a taint on the Nodes with the label in-scope: true and effect NoSchedul
 Q. As part of a security team investigating a compromised service account key, you need to audit which new resources were created by the service account. What should you do?
 A. Query Admin Activity logs -> resource created/deleted log
 
-Q. Your company manages an application instance group currently deployed behind a Google Cloud load balancer in us-central-1, utilizing the Standard Tier network. The infrastructure team intends to expand to a second Google Cloud region, us-east-2. To facilitate the distribution of new requests to the instance groups in both regions using a single external IP address, what steps should you take?
+Q. Your company manages an application instance group currently deployed behind a Google Cloud load balancer in us-central-1, utilizing the **Standard Tier network**. The infrastructure team intends to expand to a second Google Cloud region, us-east-2. To facilitate the distribution of new requests to the instance groups in both regions using a single external IP address, what steps should you take?
 A. Change the load balancer frontend configuration to use the Premium Tier network, and add the new instance group.
 -> standard tier lb 는 하나의 region 밖에 host 못함. 그래서 premium tier lb로 바꿔야됨 
 
 Q. What steps should be taken to confirm that the data written to BigQuery, from the newly deployed App Engine application last week (with no other workloads in the project), was exclusively carried out using the App Engine Default Service Account?
 A. 1. Use Cloud Logging and filter on BigQuery Insert Jobs.
 2. Click on the email address in line with the App Engine Default Service Account in the authentication field.
-3. Click Hide Matching Entries.
+3. **Click Hide Matching Entries.** -> default service account 가 사용한것은 정상적인것
 4. Make sure the resulting list is empty.
 
 Q. Your organization has recently implemented a new application on Google Kubernetes Engine, and now there's a need for a protective solution with the following specifications:
@@ -512,6 +512,7 @@ Q. Your organization has recently implemented a new application on Google Kubern
 - Authentication using Google accounts is a requirement.
 Which solution is most suitable for these requirements?
 A. Web Security Scanner
+GKE에서 실행되는 웹 애플리케이션의 보안 취약점을 식별하고 해결하는 데 도움이 되는 관리형 서비스입니다. 
 
 Q. In the event of terminating an engineer, what actions should a customer take to ensure the automatic deprovisioning of the engineer's Google account?
 A. Configure Cloud Directory Sync with their directory service to provision and deprovision users from Cloud Identity.
@@ -520,7 +521,7 @@ Q. As the Security Admin in your company, you aim to synchronize all security gr
 A. Configure Google Cloud Directory Sync to sync security groups using LDAP search rules that have "user email address" as the attribute to facilitate one-way sync.
 
 Q. You've been assigned the responsibility of fortifying an external web application against common attacks for a public application on Google Cloud. Before enforcing these policy changes, what service should you employ to validate them?
-A. Google Cloud Armor's preconfigured rules in preview mode
+A. Google Cloud Armor's preconfigured rules in **preview mode**
 
 Q. In a scenario where a customer aims to enhance accessibility for their mobile workforce to reach a CRM web interface hosted on Google Cloud Platform (GCP), currently limited to access within the corporate network, the customer seeks to extend access over the internet. The team emphasizes the necessity of implementing an authentication layer supporting two-factor authentication for enhanced security.
 
