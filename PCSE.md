@@ -53,9 +53,11 @@ Udemy
 - **Deterministic encryption**은 동일한 입력 값에 대해 항상 동일한 암호 텍스트를 생성하는 암호화 방법입니다.
 - Control rotation schedules for encryption keys → customer-managed encryption key, google managed encryption key는 rotation을 내가 설정할 수 없음.
 
-|특징/장점/단점|Google-managed encryption keys|Customer-managed encryption keys (CMEK)|
-|---|---|---|
-|키 회전 및 폐기|자동|사용자 설정|
+| 특징/장점/단점  | Google-managed encryption keys | Customer-managed encryption keys (CMEK) |
+| --------- | ------------------------------ | --------------------------------------- |
+| 키 회전 및 폐기 | 자동                             | 사용자 설정                                  |
+|           |                                |                                         |
+|           |                                |                                         |
 
 - To avoid individual management of access for each object →Uniform bucket-level access
 
@@ -468,6 +470,20 @@ A.1. Use separate Google Cloud projects to store Production and Non-Production s
 Q. Your Security team suspects that a former employee gained unauthorized access to Google Cloud resources within the past two months using a service account key. To confirm this unauthorized access and assess user activity, what steps should you take?
 A. Use the Logs Explorer to search for user activity.
 
+Q. In the development of a 3-tier web application on Google Cloud Platform (GCP), a customer and another company are collaborating to create different segments of the application in **separate GCP Organizations**. The customer is responsible for the application tier in their GCP Organization, while the other company is handling the storage tier. To ensure that communication between application segments avoids the public internet, what type of connectivity should be implemented?
+A. VPC peering
+
+Q. The security operations team requires access to **security-related logs** for all projects within their organization. They have specific requirements:
+
+- Adhere to the least privilege model, providing only view access to logs.
+- Access Admin Activity logs.
+- Access Data Access logs.
+- Access Access Transparency logs.    
+
+    Which Identity and Access Management (IAM) role should be assigned to the security operations team?
+A. roles/logging.privateLogViewer
+
+Q. 
 
 
 
