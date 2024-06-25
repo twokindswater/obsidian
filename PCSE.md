@@ -479,8 +479,8 @@ Q. The security operations team requires access to **security-related logs** for
 - Access Admin Activity logs.
 - Access Data Access logs.
 - Access Access Transparency logs.    
+Which Identity and Access Management (IAM) role should be assigned to the security operations team?
 
-    Which Identity and Access Management (IAM) role should be assigned to the security operations team?
 A. roles/logging.privateLogViewer
 
 Q. 
