@@ -133,7 +133,7 @@ basis 근거, 이유, 기준
 
 redaction : 편집
 
-segments : 구획, 분활하다.
+segments : 구획,부분, 분활하다.
 
 oversee 감독하다
 
