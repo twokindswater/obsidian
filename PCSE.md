@@ -490,13 +490,14 @@ Q. You are required to establish an encryption-at-rest strategy that **simplifie
 A. Encrypt non-sensitive data with Google default encryption, and encrypt sensitive data with Cloud Key Management Service.
 
 Q. How can the organization fulfill compliance requirements to guarantee that PCI Kubernetes Pods designated as in-scope are situated exclusively on Nodes labeled as "in-scope"? Additionally, these Nodes should only host Pods that fall within the defined in-scope category.
-A. Place a taint on the Nodes with the label inscope: true and effect NoSchedule and a toleration to match in the Pod configuration.
+A. Place a taint on the Nodes with the label in-scope: true and effect NoSchedule and a toleration to match in the Pod configuration.
 
 Q. As part of a security team investigating a compromised service account key, you need to audit which new resources were created by the service account. What should you do?
 A. Query Admin Activity logs -> resource created/deleted log
 
 Q. Your company manages an application instance group currently deployed behind a Google Cloud load balancer in us-central-1, utilizing the Standard Tier network. The infrastructure team intends to expand to a second Google Cloud region, us-east-2. To facilitate the distribution of new requests to the instance groups in both regions using a single external IP address, what steps should you take?
 A. Change the load balancer frontend configuration to use the Premium Tier network, and add the new instance group.
+-> standard tier lb 는 하나의 region 밖에 host 못함. 그래서 premium tier lb로 바꿔야됨 
 
 Q. What steps should be taken to confirm that the data written to BigQuery, from the newly deployed App Engine application last week (with no other workloads in the project), was exclusively carried out using the App Engine Default Service Account?
 A. 1. Use Cloud Logging and filter on BigQuery Insert Jobs.
