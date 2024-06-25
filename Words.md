@@ -184,3 +184,4 @@ seamlessly 원활하게
 fortify 확고히 하다
 
 comprehensive 포괄적인
+formulating 공식화하다.
