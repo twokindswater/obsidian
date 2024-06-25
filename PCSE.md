@@ -428,3 +428,12 @@ Q. Which two security features are pertinent to the implementation of VPC peerin
 A. Ability to peer networks that belong to different Google Cloud organizations
 Non-transitive peered networks; where only directly peered networks can communicate
 
+Q. The security and risk management teams of an organization are inquiring about their responsibility and Google's responsibility concerning specific production workloads on Google Cloud, mainly leveraging platform-as-a-Service (PaaS) options like App Engine. What should be their primary focus within the technology stack regarding responsibilities when utilizing App Engine?
+A. Defending against XSS and SQLi attacks
+
+Q. You are addressing access denied errors between Compute Engine instances linked to a Shared VPC and BigQuery datasets situated in a project safeguarded by a VPC Service Controls perimeter. What measures should you undertake to resolve this problem?
+A. Add the host project containing the Shared VPC to the service perimeter.
+
+Q. As a member of a security team, your objective is to guarantee that a Cloud Storage bucket in Project A is exclusively readable from Project B. Additionally, you aim to prevent access to the data in the Cloud Storage bucket from being accomplished or replicated to Cloud Storage buckets outside the network, irrespective of the user possessing the correct credentials.
+
+What steps should you take to achieve these security requirements?
