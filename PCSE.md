@@ -17,7 +17,7 @@ Google
 - Create a regular expression (regex) custom infoType detector to match on pattern.
 - Cloud storage default encryption → **AES-256**
 - uploaded files cannot be deleted within first 5 years. it should not be possible to lower the retention period after it has been set → Apply a retention period and **lock the bucket.**
-- Container images contain the latest security patch → **google-manged based images**
+- Container images contain the latest security patch → **google-managed based images**
 - deployment polices → deployment policies define in **Binary Authorization** ensure that only trusted images can be deployed in GKE.
 - Vulnerability scanning can be performed by **container analysis** to discover package vulnerability information in container base image.
 - Personally identifiable information (PII)
@@ -27,17 +27,23 @@ Google
 - Active Directory: microsoft auth program
 - **Cloud interconnect** : 지연 시간이 짧고 가용성이 높은 연결을 제공, 내부 IP 주소 통신
 
-|기능|Dedicated Interconnect|Partner Interconnect|
-|---|---|---|
-|속도|~200Gbps|50Mbps~50Gbps|
+| 기능  | Dedicated Interconnect | Partner Interconnect |
+| --- | ---------------------- | -------------------- |
+| 속도  | ~200Gbps               | 50Mbps~50Gbps        |
+- 인증 
+
+| 기능  | Identity-Aware Proxy (IAP)                    | Context-Aware Access                                |
+| --- | --------------------------------------------- | --------------------------------------------------- |
+| 목적  | IAP는 웹 애플리케이션 및 VM 인스턴스에 대한 액세스를 보호           | 접근 제어를 더 세밀하게 설정                                    |
+| 인증  | oogle 계정을 사용하여 인증하고, IAM 정책을 통해 접근 권한을 제어합니다. | 사용자 인증 외에도, 위치, 기기 보안 상태, IP 주소, 시간대 등의 컨텍스트 정보를 기반 |
 
 ---
 
 Udemy
 
 - GCP has 2 different network service.
-    - Standard Tier network : use public network, cost efficiency, normal latency
-    - Premium Tier network : use backbone network, high cost, low latency → backend랑 동일한 region에서만 가능
+    - Standard Tier network : use public network, cost efficiency, normal latency, backend랑 동일한 region에서만 가능
+    - Premium Tier network : use backbone network, high cost, low latency, fast
 - It is recommended to isolate VMs using service accounts whenever possible → **vm마다 service account를 mapping 할 수 있음**
 - **Web security scanner** can help you find security problems. automatically scan and detect common security vulnerabilities.
 - **firewall 설정할때 특정 service account 를 allow/deny 할 수 있음.**
