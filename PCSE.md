@@ -509,5 +509,36 @@ Q. Your organization has recently implemented a new application on Google Kubern
 Which solution is most suitable for these requirements?
 A. Web Security Scanner
 
-Q. 
+Q. In the event of terminating an engineer, what actions should a customer take to ensure the automatic deprovisioning of the engineer's Google account?
+A. Configure Cloud Directory Sync with their directory service to provision and deprovision users from Cloud Identity.
+
+Q. As the Security Admin in your company, you aim to synchronize all security groups with an email address from your LDAP directory in Cloud IAM. What steps should you take?
+A. Configure Google Cloud Directory Sync to sync security groups using LDAP search rules that have "user email address" as the attribute to facilitate one-way sync.
+
+Q. You've been assigned the responsibility of fortifying an external web application against common attacks for a public application on Google Cloud. Before enforcing these policy changes, what service should you employ to validate them?
+A. Google Cloud Armor's preconfigured rules in preview mode
+
+Q. In a scenario where a customer aims to enhance accessibility for their mobile workforce to reach a CRM web interface hosted on Google Cloud Platform (GCP), currently limited to access within the corporate network, the customer seeks to extend access over the internet. The team emphasizes the necessity of implementing an authentication layer supporting two-factor authentication for enhanced security.
+
+Which GCP product should the customer implement to fulfill these requirements?
+A. Cloud Identity-Aware Proxy
+
+Q. Your company aims to identify suitable products for customers to enhance their credit scores based on age groups. To achieve this, you must integrate user information from the company's banking app with credit score data obtained from a third party. Although utilizing raw data would fulfill the task, it poses a risk by exposing sensitive information that could extend into new systems. To address this risk, you need to implement de-identification and tokenization using Cloud Data Loss Prevention while preserving referential integrity throughout the database. What cryptographic token format should you employ to fulfill these requirements?
+A. Deterministic encryption
+
+Q. You are tasked with safeguarding highly sensitive data stored in BigQuery. While your operations teams require access to this data, compliance with privacy regulations mandates that they cannot read specific sensitive fields, such as email addresses and first names. These particular sensitive fields should only be accessible to the Human Resources team on a need-to-know basis.
+
+How can you address this situation and implement the necessary privacy controls?
+A. Perform tokenization for Pseudonymization with the Cloud Data Loss Prevention API, and store that data in BigQuery for later use.
+
+Q. As a member of your company's development team, you've identified a potential security concern in the web application hosted on GKE staging. The application dynamically incorporates user data into web pages without adequately validating the input, posing a risk for attackers to execute malicious commands and display arbitrary content in a victim user's browser in a production environment.
+
+How should you address and rectify this vulnerability?
+
+A. Use Web Security Scanner in staging to simulate an XSS injection attack, and then use a templating system that supports contextual auto-escaping.
+
+Q. How can the architecture of your company's messaging app be aligned with FIPS 140-2 compliance on GCP compute and network services? The app utilizes a Managed Instance Group (MIG) to oversee a cluster of Compute Engine instances, which employ Local SSDs for data caching and use UDP for instance-to-instance communications. The app development team is open to making any required changes to ensure compliance. What recommendations should be suggested to fulfill these requirements?
+A. Encrypt all cache storage and VM-to-VM communication using the BoringCrypto module.
+
+
 
