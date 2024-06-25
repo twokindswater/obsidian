@@ -535,6 +535,7 @@ Q. You are tasked with safeguarding highly sensitive data stored in BigQuery. Wh
 
 How can you address this situation and implement the necessary privacy controls?
 A. Perform tokenization for Pseudonymization with the Cloud Data Loss Prevention API, and store that data in BigQuery for later use.
+tokenization은 원복이 가능, redaction은 복원불가 
 
 Q. As a member of your company's development team, you've identified a potential security concern in the web application hosted on GKE staging. The application dynamically incorporates user data into web pages without adequately validating the input, posing a risk for attackers to execute malicious commands and display arbitrary content in a victim user's browser in a production environment.
 
@@ -544,6 +545,6 @@ A. Use Web Security Scanner in staging to simulate an XSS injection attack, and 
 
 Q. How can the architecture of your company's messaging app be aligned with FIPS 140-2 compliance on GCP compute and network services? The app utilizes a Managed Instance Group (MIG) to oversee a cluster of Compute Engine instances, which employ Local SSDs for data caching and use UDP for instance-to-instance communications. The app development team is open to making any required changes to ensure compliance. What recommendations should be suggested to fulfill these requirements?
 A. Encrypt all cache storage and VM-to-VM communication using the BoringCrypto module.
-
+BoringCrypto ->  FIPS 140 
 
 
