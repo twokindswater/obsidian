@@ -486,6 +486,11 @@ A. roles/logging.privateLogViewer
 Q. You are required to establish an encryption-at-rest strategy that simplifies key management for non-sensitive data, safeguards sensitive data, and allows flexibility in controlling key residency and rotation schedules. The compliance mandate necessitates adhering to FIPS 140-2 Level 1 for all data types. What steps should you take to meet these requirements?
 A. Encrypt non-sensitive data with Google default encryption, and encrypt sensitive data with Cloud Key Management Service.
 
-Q. 
+Q. How can the organization fulfill compliance requirements to guarantee that PCI Kubernetes Pods designated as in-scope are situated exclusively on Nodes labeled as "in-scope"? Additionally, these Nodes should only host Pods that fall within the defined in-scope category.
+A. Place a taint on the Nodes with the label inscope: true and effect NoSchedule and a toleration to match in the Pod configuration.
+
+Q. As part of a security team investigating a compromised service account key, you need to audit which new resources were created by the service account. What should you do?
+A. Query Admin Activity logs -> resource created/deleted log
+
 
 
