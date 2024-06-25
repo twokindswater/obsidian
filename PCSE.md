@@ -545,6 +545,6 @@ A. Use Web Security Scanner in staging to simulate an XSS injection attack, and 
 
 Q. How can the architecture of your company's messaging app be aligned with FIPS 140-2 compliance on GCP compute and network services? The app utilizes a Managed Instance Group (MIG) to oversee a cluster of Compute Engine instances, which employ Local SSDs for data caching and use UDP for instance-to-instance communications. The app development team is open to making any required changes to ensure compliance. What recommendations should be suggested to fulfill these requirements?
 A. Encrypt all cache storage and VM-to-VM communication using the BoringCrypto module.
-BoringCrypto ->  FIPS 140 
+BoringCrypto는 Google이 관리하는 FIPS 140-2 인증을 받은 암호화 모듈로, BoringSSL의 일부분입니다 
 
 
