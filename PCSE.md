@@ -446,3 +446,11 @@ A. Create an Active Directory domain password policy with strong password settin
 Q. As your company expands, you've chosen to integrate Google Cloud Directory Sync (GCDS) with your on-premises LDAP server for user management in Cloud Identity. Your objectives include replicating user and group lifecycle changes from LDAP and disabling manually created users in Cloud Identity. With LDAP search attributes configured, what is the appropriate next step to complete this solution?
 A. 1. Configure the option to suspend domain users not found in LDAP.
 2.Set up a recurring GCDS task.
+
+Q. In the initial phase of transitioning infrastructure from on-premises to Google Cloud Platform (GCP), an organization prioritizes migrating ongoing data backup and disaster recovery solutions to GCP. The subsequent phase involves migrating the on-premises production environment to GCP, accompanied by the implementation of stable networking connectivity between the two environments. In this scenario, which GCP solution would be most suitable?
+A. Employ Cloud Storage with a scheduled task and gsutil, leveraging **Cloud Interconnect**.
+
+Q. How can you ensure that data on Compute Engine disks is encrypted at rest with keys managed by Cloud Key Management Service (KMS), and the Cloud Identity and Access Management (IAM) permissions for these keys are managed collectively in a **group-oriented manner**, maintaining **uniform permissions** across all keys?
+A. Create a single KeyRing for all persistent disks and all Keys in this KeyRing. Manage the IAM permissions at the **KeyRing** level.
+
+Q. 
