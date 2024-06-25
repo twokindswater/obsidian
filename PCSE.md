@@ -492,5 +492,22 @@ A. Place a taint on the Nodes with the label inscope: true and effect NoSchedule
 Q. As part of a security team investigating a compromised service account key, you need to audit which new resources were created by the service account. What should you do?
 A. Query Admin Activity logs -> resource created/deleted log
 
+Q. Your company manages an application instance group currently deployed behind a Google Cloud load balancer in us-central-1, utilizing the Standard Tier network. The infrastructure team intends to expand to a second Google Cloud region, us-east-2. To facilitate the distribution of new requests to the instance groups in both regions using a single external IP address, what steps should you take?
+A. Change the load balancer frontend configuration to use the Premium Tier network, and add the new instance group.
 
+Q. What steps should be taken to confirm that the data written to BigQuery, from the newly deployed App Engine application last week (with no other workloads in the project), was exclusively carried out using the App Engine Default Service Account?
+A. 1. Use Cloud Logging and filter on BigQuery Insert Jobs.
+2. Click on the email address in line with the App Engine Default Service Account in the authentication field.
+3. Click Hide Matching Entries.
+4. Make sure the resulting list is empty.
+
+Q. Your organization has recently implemented a new application on Google Kubernetes Engine, and now there's a need for a protective solution with the following specifications:
+
+- Scans must occur at least once weekly.
+- Capability to identify cross-site scripting vulnerabilities is essential.
+- Authentication using Google accounts is a requirement.
+Which solution is most suitable for these requirements?
+A. Web Security Scanner
+
+Q. 
 
