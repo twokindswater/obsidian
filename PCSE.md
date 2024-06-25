@@ -453,4 +453,21 @@ A. Employ Cloud Storage with a scheduled task and gsutil, leveraging **Cloud Int
 Q. How can you ensure that data on Compute Engine disks is encrypted at rest with keys managed by Cloud Key Management Service (KMS), and the Cloud Identity and Access Management (IAM) permissions for these keys are managed collectively in a **group-oriented manner**, maintaining **uniform permissions** across all keys?
 A. Create a single KeyRing for all persistent disks and all Keys in this KeyRing. Manage the IAM permissions at the **KeyRing** level.
 
-Q. 
+Q. You are formulating a new governance model for your organization's secrets housed in Secret Manager. Presently, secrets for both Production and Non-Production applications are stored and retrieved utilizing service accounts. Your proposed solution must:
+
+- Enable precise access control for secrets
+- Grant you authority over the rotation schedules for the encryption keys securing your secrets
+- Uphold segregation between different environments
+- Facilitate straightforward management
+
+What approach should you adopt to meet these requirements?
+A.1. Use separate Google Cloud projects to store Production and Non-Production secrets.
+2. Enforce access control to secrets using project-level identity and Access Management (IAM) bindings.
+3. Use customer-managed encryption keys to encrypt secrets.
+
+Q. Your Security team suspects that a former employee gained unauthorized access to Google Cloud resources within the past two months using a service account key. To confirm this unauthorized access and assess user activity, what steps should you take?
+A. Use the Logs Explorer to search for user activity.
+
+
+
+
