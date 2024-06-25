@@ -443,4 +443,6 @@ A. Enable VPC Service Controls, create a perimeter with Project A and B, and inc
 Q. Your organization has set up synchronization and SAML federation between Cloud Identity and Microsoft Active Directory. To minimize the risk of Google Cloud user accounts being compromised, what steps should you take?
 A. Create an Active Directory domain password policy with strong password settings, and configure post-SSO (single sign-on) 2-Step Verification with **security keys** in the Google Admin console.
 
-Q. 
+Q. As your company expands, you've chosen to integrate Google Cloud Directory Sync (GCDS) with your on-premises LDAP server for user management in Cloud Identity. Your objectives include replicating user and group lifecycle changes from LDAP and disabling manually created users in Cloud Identity. With LDAP search attributes configured, what is the appropriate next step to complete this solution?
+A. 1. Configure the option to suspend domain users not found in LDAP.
+2.Set up a recurring GCDS task.
