@@ -103,8 +103,8 @@ onsite 현장의
 
 formulate 공식화하다
 
-compromise 타협, 더럽히다
-
+compromise 타협, 더럽히다, 손상되다.
+compromising 타협하여 해결짓다.
 perimeters 둘레
 
 exfiltration 유출 exfiltrate 유출하다
@@ -150,8 +150,9 @@ leading 주요한
 disruption 분열
 
 swiftly 신속하게
+accompany 동반하다
 
-compromising 타협하여 해결짓다.
+
 
 facilitate 가능하게 하다
 
