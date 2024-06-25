@@ -483,7 +483,9 @@ Which Identity and Access Management (IAM) role should be assigned to the securi
 
 A. roles/logging.privateLogViewer
 
-Q. 
+Q. You are required to establish an encryption-at-rest strategy that simplifies key management for non-sensitive data, safeguards sensitive data, and allows flexibility in controlling key residency and rotation schedules. The compliance mandate necessitates adhering to FIPS 140-2 Level 1 for all data types. What steps should you take to meet these requirements?
+A. Encrypt non-sensitive data with Google default encryption, and encrypt sensitive data with Cloud Key Management Service.
 
+Q. 
 
 
