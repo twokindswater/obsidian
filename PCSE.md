@@ -437,3 +437,10 @@ A. Add the host project containing the Shared VPC to the service perimeter.
 Q. As a member of a security team, your objective is to guarantee that a Cloud Storage bucket in Project A is exclusively readable from Project B. Additionally, you aim to prevent access to the data in the Cloud Storage bucket from being accomplished or replicated to Cloud Storage buckets outside the network, irrespective of the user possessing the correct credentials.
 
 What steps should you take to achieve these security requirements?
+A. Enable VPC Service Controls, create a perimeter with Project A and B, and include Cloud Storage service.
+**PC 서비스 제어(VPC Service Controls)는 민감한 데이터의 유출을 방지하고 보안을 강화**
+
+Q. Your organization has set up synchronization and SAML federation between Cloud Identity and Microsoft Active Directory. To minimize the risk of Google Cloud user accounts being compromised, what steps should you take?
+A. Create an Active Directory domain password policy with strong password settings, and configure post-SSO (single sign-on) 2-Step Verification with **security keys** in the Google Admin console.
+
+Q. 
