@@ -25,7 +25,8 @@ anonymize 익명으로 하다.
 
 obstruct 막다
 
-retain 유지하다. Preclude 배제하다.
+retain 유지하다. 
+Preclude 배제하다.
 
 assessment 평가
 

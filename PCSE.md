@@ -142,9 +142,7 @@ Q. As the manager of your organization's Security Operations Center (SOC), you o
 
 A. **Packet Mirroring**
 
-Q.
-
-You've recently acquired a new workload, and the Web and Application (App) servers are set to operate on Compute Engine within a freshly established custom VPC. Your task is to implement a secure network communication solution that adheres to the following specifications:
+Q. You've recently acquired a new workload, and the Web and Application (App) servers are set to operate on Compute Engine within a freshly established custom VPC. Your task is to implement a secure network communication solution that adheres to the following specifications:
 
 - Restrict communication exclusively between the Web and App tiers.
 - Ensure uniform network security when autoscaling the Web and App tiers.
@@ -155,19 +153,17 @@ What steps should you take to achieve this?
 A.
 
 **1. Re-deploy the Web and App servers with instance templates configured with respective service accounts.**
-
 **2. Create an allow VPC firewall rule that specifies the target/source with respective service accounts.**
 
 Q. Which load balancer type should you employ to retain client IP by default while utilizing the standard network tier?
 
 A. **TCP/UDP Network**
+ALB는 client ip를 x-forwarded-for header에 포함시키고, 자신의 ip를 overwrite해서 보냄
 
 Q.How should you structure the network to examine all traffic between two network segments, one designated as untrusted and the other as trusted, using a virtual appliance like a next-generation firewall (NGFW)?
 
 A.
-
 **1. Set up two VPC networks: one trusted and the other untrusted.**
-
 **2. Configure a virtual appliance using multiple network interfaces, with each interface connected to one of the VPC networks.**
 
 Q. Your company is using Cloud Storage to store sensitive documents. The compliance team requires that data at rest is encrypted and that access to the data is audited. Which configuration should be applied to meet these requirements?
