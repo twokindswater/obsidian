@@ -415,13 +415,14 @@ A. Encrypt data at rest in Cloud Storage buckets using Cloud Key Management Serv
 DLP는 데이터 내용만 보호해준다는 한계가 존재. 데이터 전송 및 보안과 관련된 내용은 KMS & HTTPS & IAM
 
 Q. You are setting up an App Engine project and want to ensure that users can sign in using various providers through Identity Platform. What should be your first step after creating a new Google Cloud project?
+
 A. Enable Identity Platform in the Google Cloud Marketplace.
 
 
 
 # Pratice Exam 1 
 
-Q. As a security engineer at a financial institution, your organization intends to store data on Google Cloud. However, the leadership team is apprehensive about the security of highly sensitive data, particularly regarding the potential access by internal Google employees to your company's data on Google Cloud. What solution would you recommend?
+Q. As a security engineer at a financial institution, your organization intends to store data on Google Cloud. However, the leadership team is apprehensive about the security of highly sensitive data, particularly regarding the potential access by **internal Google employees** to your company's data on Google Cloud. What solution would you recommend?
 
 A. Enable Access Transparency logs with Access Approval requests for Google employees.
 **Access transparency log** 는 google의 운영자가 고객의 콘텐츠에 접근할 때마다 그 활동을 기록하는 로그입니다.
