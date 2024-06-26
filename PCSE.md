@@ -358,11 +358,11 @@ Q. Your project requires automated tools to use credentials from an AWS EC2 inst
 
 A. Through a credential configuration file that points to the **workload identity pool** and provider.
 
-Q. Your organization is deploying applications on GKE across multiple regions, and you want to ensure low-latency communication between clusters. What GCP service can you use to connect GKE clusters in different regions securely?
+Q. Your organization is deploying applications on GKE across multiple regions, and you want to ensure low-latency communication between clusters. What GCP service can you use to connect **GKE clusters in different regions** securely?
 
 A. Anthos Service Mesh
 
-Q. Your company is looking for a cost-effective MFA solution that can integrate with Google Cloud. What is a recommended cost-effective MFA method for GCP?
+Q. Your company is looking for a **cost-effective MFA solution** that can integrate with Google Cloud. What is a recommended cost-effective MFA method for GCP?
 
 A. SMS-based codes
 
@@ -376,7 +376,7 @@ A. Service perimeters defining sandboxes of resources.
 
 Q. Your company plans to use AWS EC2 instance profiles to authenticate to Google Cloud services without managing service account keys. What is the first step to enable this integration?
 
-A. Configure a workload identity pool in Google Cloud.
+A. Configure a **workload identity pool** in Google Cloud.
 
 Q.Your critical API endpoint experiences a sudden surge in traffic. How can you differentiate between a legitimate traffic spike and a DDoS attack?
 
