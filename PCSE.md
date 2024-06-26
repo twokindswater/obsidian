@@ -326,7 +326,7 @@ To ensure auditability and maintain a record of user activity within Cloud Stora
 
 A. Enable Cloud Logging for centralized logging of all bucket access attempts and data modifications.
 
-Q. **Company "FinTech Solutions" exposes financial APIs through Cloud API Gateway and needs to balance security with performance. Choose the best approach for each situation:**
+Q. Company "FinTech Solutions" exposes financial APIs through Cloud API Gateway and needs to balance security with performance. Choose the best approach for each situation:
 
 "FinTech Solutions" relies heavily on API keys for user authentication. How can they mitigate the risks associated with API keys?
 A. Encrypt API keys in transit using HTTPS but store them unencrypted at rest within the application.
