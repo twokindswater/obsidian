@@ -534,7 +534,7 @@ A. Configure Google Cloud Directory Sync to sync security groups using LDAP sear
 Q. You've been assigned the responsibility of fortifying an external web application against common attacks for a public application on Google Cloud. Before enforcing these policy changes, what service should you employ to validate them?
 A. Google Cloud Armor's preconfigured rules in **preview mode**
 
-Q. In a scenario where a customer aims to enhance accessibility for their mobile workforce to reach a CRM web interface hosted on Google Cloud Platform (GCP), currently limited to access within the corporate network, the customer seeks to extend access over the internet. The team emphasizes the necessity of implementing an authentication layer supporting two-factor authentication for enhanced security.
+Q. In a scenario where a customer aims to enhance accessibility for their mobile workforce to reach a CRM web interface hosted on **Google Cloud Platform** (GCP), currently limited to access within the corporate network, the customer seeks to extend access over the internet. The team emphasizes the necessity of implementing an authentication layer supporting two-factor authentication for enhanced security.
 
 Which GCP product should the customer implement to fulfill these requirements?
 A. Cloud Identity-Aware Proxy
