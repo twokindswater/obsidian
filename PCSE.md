@@ -430,7 +430,7 @@ A. Enable Access Transparency logs with Access Approval requests for Google empl
 Q. As the security administrator for your company, you oversee the creation of multiple GCP projects by the development team under the "implementation" folder for various development, staging, and production workloads. To prevent data exfiltration by malicious insiders or compromised code, you aim to establish a security perimeter. However, you want to ensure that communication between the projects is not restricted.
 
 What steps should you take?
-A. Use an infrastructure-as-code software tool to set up a single service perimeter and to deploy a Cloud Function that monitors the "implementation" folder via Google Cloud Monitoring (formerly Stackdriver) and Cloud Pub/Sub. When the function notices that a new project is added to the folder, it executes Terraform to add the new project to the associated perimeter.
+A. Use an infrastructure-as-code software tool to set up a **single service perimeter** and to deploy a Cloud Function that monitors the "implementation" folder via Google Cloud Monitoring (formerly Stackdriver) and Cloud Pub/Sub. When the function notices that a new project is added to the folder, it executes Terraform to add the new project to the associated perimeter.
 **monitoring을 위한 하나의 service perimeter 설정**
 
 Q. You are tasked with suggesting a solution for storing and retrieving sensitive configuration data from an application **hosted on Compute Engine**. What option would you recommend?
@@ -438,6 +438,7 @@ A. Secret Manager
 **compute engine에서 hosting 되고있으면 secret manager를 사용** 
 
 Q. Which two security features are pertinent to the implementation of VPC peering for connecting two VPC networks? (Choose two.)
+
 A. Ability to peer networks that belong to different Google Cloud organizations
 Non-transitive peered networks; where only directly peered networks can communicate
 
