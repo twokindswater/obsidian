@@ -220,7 +220,7 @@ Q. What steps should be taken to investigate and confirm the functionality of fi
 
 A. **Enable Firewall Rules Logging on the latest rules that were changed. Use Logs Explorer to analyze whether the rules are working correctly.**
 
-Q. A large e-retailer is moving to Google Cloud Platform with its ecommerce website. The company wants to ensure payment information is encrypted between the customer's browser and GCP when the customers checkout online. What should they do?
+Q. A large e-retailer is moving to Google Cloud Platform with its ecommerce website. The company wants to ensure payment information is **encrypted between the customer's browser and GCP** when the customers checkout online. What should they do?
 
 A. **Configure an SSL Certificate on an L7 Load Balancer and require encryption.**
 
