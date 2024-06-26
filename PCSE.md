@@ -181,14 +181,13 @@ A. **Dry Run**
 Q. To comply with PCI DSS requirements, a client seeks tol enforce authorization for all outgoing traffic. Which two cloud services fulfill this demand without requiring supplementary compensating measures? (Select two.)
 
 A. Compute Engine
-
 Cloud Function
 
-Q. In handling protected health information (PHI) for an electronic health record system, the privacy officer is apprehensive about sensitive data storage in the analytics system. Your responsibility is to anonymize the sensitive data in a manner that is non-reversible and ensures that the anonymized data does not retain the character set and length. What Google Cloud solution should you employ?
+Q. In handling protected health information (PHI) for an electronic health record system, the privacy officer is apprehensive about sensitive data storage in the analytics system. Your responsibility is to anonymize the sensitive data in a manner that is **non-reversible** and ensures that the anonymized data does not retain the character set and length. What Google Cloud solution should you employ?
 
 A. **Cloud Data Loss Prevention with cryptographic hashing**
 
-Q. Your organization is implementing a Zero Trust security model and wants to ensure that only authorized users with the right devices can access resources in Google Cloud. Which GCP feature should be used to enforce device-based access controls for users?
+Q. Your organization is implementing a Zero Trust security model and wants to ensure that only authorized users with the right **devices** can access resources in Google Cloud. Which GCP feature should be used to enforce device-based access controls for users?
 
 A. **Context-Aware Access**
 
