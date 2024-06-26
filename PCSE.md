@@ -127,7 +127,6 @@ Q. You are tasked with establishing a connection between your organization's on-
 A.
 
 **1. Set up a Dedicated Interconnect link between the on-premises environment and Google Cloud.**
-
 **2. Configure private access using the [restricted.googleapis.com](http://restricted.googleapis.com) domains in on-premises DNS configurations.**
 
 Q. Your team is tasked with organizing the Google Cloud Platform (GCP) environment to consolidate control over networking components such as firewall rules, subnets, and routes. Additionally, there is an on-premises infrastructure requiring connectivity to GCP resources through a private VPN connection. The network security team is responsible for overseeing these networking resources. What type of networking design should your team employ to fulfill these requirements?
