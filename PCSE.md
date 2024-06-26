@@ -461,7 +461,7 @@ Q. As your company expands, you've chosen to integrate Google Cloud Directory Sy
 A. 1. Configure the option to suspend domain users not found in LDAP.
 2.Set up a recurring GCDS task.
 
-Q. In the initial phase of transitioning infrastructure from on-premises to Google Cloud Platform (GCP), an organization prioritizes migrating ongoing data backup and disaster recovery solutions to GCP. The subsequent phase involves migrating the on-premises production environment to GCP, accompanied by the implementation of stable networking connectivity between the two environments. In this scenario, which GCP solution would be most suitable?
+Q. In the initial phase of transitioning infrastructure from on-premises to Google Cloud Platform (GCP), an organization prioritizes migrating ongoing data backup and disaster recovery solutions to GCP. The subsequent phase involves migrating the on-premises production environment to GCP, accompanied by the implementation of **stable networking connectivity** between the two environments. In this scenario, which GCP solution would be most suitable?
 A. Employ Cloud Storage with a scheduled task and gsutil, leveraging **Cloud Interconnect**.
 
 Q. How can you ensure that data on Compute Engine disks is encrypted at rest with keys managed by Cloud Key Management Service (KMS), and the Cloud Identity and Access Management (IAM) permissions for these keys are managed collectively in a **group-oriented manner**, maintaining **uniform permissions** across all keys?
@@ -501,7 +501,7 @@ Q. You are required to establish an encryption-at-rest strategy that **simplifie
 A. Encrypt non-sensitive data with Google default encryption, and encrypt sensitive data with Cloud Key Management Service.
 
 Q. How can the organization fulfill compliance requirements to guarantee that PCI Kubernetes Pods designated as in-scope are situated exclusively on Nodes labeled as "in-scope"? Additionally, these Nodes should only host Pods that fall within the defined in-scope category.
-A. Place a taint on the Nodes with the label in-scope: true and effect NoSchedule and a toleration to match in the Pod configuration.
+A. Place a **taint** on the Nodes with the label in-scope: true and effect NoSchedule and a toleration to match in the Pod configuration.
 
 Q. As part of a security team investigating a compromised service account key, you need to audit which new resources were created by the service account. What should you do?
 A. Query Admin Activity logs -> resource created/deleted log
