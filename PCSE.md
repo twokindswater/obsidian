@@ -87,11 +87,11 @@ Udemy
 - Use the **Transfer Tool for Unmanaged Users (TTUU)** to find users with conflicting accounts and ask them to transfer their personal Google accounts.
 - Use **Google Cloud Directory Sync** to synchronize your local identity management system to Cloud Identity.
 - Defending against XSS and SQLi attacks is the correct answer because in **Platform-as-a-Service model** (PaaS), the customer assumes responsibility for web app security, deployment, usage, access policy, and content.
-- **Secret Manage**r is a secure and convenient storage system designed for API keys, passwords, certificates, and other sensitive data. It serves as a centralized platform and single source of truth for efficiently managing, accessing, and auditing secrets throughout Google Cloud.
+- **Secret Manager** is a secure and convenient storage system designed for API keys, passwords, certificates, and other sensitive data. It serves as a centralized platform and single source of truth for efficiently managing, accessing, and auditing secrets throughout Google Cloud.
 - DNSSEC(Domain Name System Security Extensions)는 **IP(Internet Protocol) 네트워크를 통해 전송되는 데이터의 보안을 위해 DNS 레코드에 추가되는 암호화 서명**
 - service account가 실수로 지워지면 undeleted command로 살릴 수 있음
 - PCI (personal credit information) PCI DSS(Payment Card Industry Data Security Standard)
-- PII (Personal Identifiable _Information)_
+- PII (Personal Identifiable Information)
 - _**SIEM**_(Security Information and Event Management)
 
 | 기능/특징 | Cloud VPN                                                         | Shared VPC                        | VPC Peering                           |
