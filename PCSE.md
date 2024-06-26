@@ -355,49 +355,62 @@ Encrypt container images with Cloud Key Management Service (KMS) before storing 
 Implement Binary Authorization to enforce image signature verification before deployment.
 
 Q. You need to ensure that an Azure VM using a managed identity can obtain Google Cloud credentials. Which attribute should you primarily use as the subject identifier in Google Cloud for Azure VMs?
+
 A. The managed identity ID.
 
 Q. Your project requires automated tools to use credentials from an AWS EC2 instance to access Google Cloud services. How can these tools automatically obtain the external credentials?
+
 A. Through a credential configuration file that points to the **workload identity pool** and provider.
 
 Q. Your organization is deploying applications on GKE across multiple regions, and you want to ensure low-latency communication between clusters. What GCP service can you use to connect GKE clusters in different regions securely?
+
 A. Anthos Service Mesh
 
 Q. Your company is looking for a cost-effective MFA solution that can integrate with Google Cloud. What is a recommended cost-effective MFA method for GCP?
+
 A. SMS-based codes
 
 Q. An organization needs to understand which users and groups have access to modify a particular BigQuery dataset containing sensitive data. They want to ensure the audit captures all potential access, including indirect permissions through groups. What option should they enable in their Policy Analyzer query?
+
 A. Group expansion to list all individual group members.
 
 Q. Your company has resources spread across multiple cloud projects and wants to ensure that data does not leak outside of these environments. What feature of Access Context Manager would best meet this requirement?
+
 A. Service perimeters defining sandboxes of resources.
 
 Q. Your company plans to use AWS EC2 instance profiles to authenticate to Google Cloud services without managing service account keys. What is the first step to enable this integration?
+
 A. Configure a workload identity pool in Google Cloud.
 
 Q.Your critical API endpoint experiences a sudden surge in traffic. How can you differentiate between a legitimate traffic spike and a DDoS attack?
+
 A. Leverage Cloud Armor's rate limiting and IP blacklisting features to mitigate the traffic surge.
 Implement Cloud Monitoring anomaly detection to automatically alert on unusual API activity.
 Analyze traffic patterns and identify anomalies in request volume and origin.
 
 Q. Your company's security team suspects a potential malware infection within a Compute Engine VM. To investigate and remediate the threat, what steps should you take?
+
 A. Use Cloud Logging to analyze VM logs for suspicious activity and identify the malware origin.
 Immediately shut down the VM to prevent further spread of malware.
 Deploy a Cloud Armor security policy to block network traffic from the infected VM.
 
 Q. After setting up a workload identity pool, what is the next step to allow an external workload from AWS to authenticate to Google Cloud using the pool?
+
 A. Create a service account in Google Cloud to represent the workload.
 
 Q. To detect and prevent unauthorized access attempts to GCP resources, what security feature should you enable?
+
 A. Context-aware access (CAA) to evaluate user and device context before granting access.
 Security Health Analytics (SHA) for detailed logs of user activities and access events.
 Cloud Security Command Center (SCC) for security-related insights and threat detection.
 
 Q. Your company has a large number of employees and contractors with varying levels of access to GCP resources. To simplify access management and reduce security risks, what should you implement?
+
 A. Leverage Google Groups to group users with similar access needs and assign IAM roles to groups instead of individual users.
 Integrate with Active Directory using Cloud Identity for seamless user authentication and authorization.
 
-Q. TrendyTech's application relies heavily on real-time analytics for customer behavior insights. The application continuously reads and writes data to Cloud Storage buckets containing sensitive customer purchase records. How can you secure this data transfer while maintaining performance and scalability?
+Q. TrendyTech's application relies heavily on real-time analytics for customer behavior insights. The application continuously reads and writes data to Cloud Storage buckets containing sensitive customer purchase records. How can you secure this **data transfer** while maintaining performance and scalability?
+
 A. Encrypt data at rest in Cloud Storage buckets using Cloud Key Management Service (KMS) and implement server-side encryption for data in transit using HTTPS and IAM permissions.
 DLP는 데이터 내용만 보호해준다는 한계가 존재. 데이터 전송 및 보안과 관련된 내용은 KMS & HTTPS & IAM
 
