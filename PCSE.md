@@ -110,7 +110,7 @@ Udemy
 
 ---
 
-Q. To establish a Cloud Interconnect connection between your company's on-premises data center and VPC host network, with the aim of restricting on-premises applications to access Google APIs exclusively via Cloud Interconnect and not through the public internet, while ensuring usage of only VPC Service Controls-supported APIs to mitigate exfiltration risk to non-supported APIs, what network configuration should you implement?
+Q. To establish a Cloud Interconnect connection between your company's on-premises data center and VPC host network, with the aim of restricting on-premises applications to access Google APIs exclusively via **Cloud Interconnect** and not through the public internet, while ensuring usage of only VPC Service Controls-supported APIs to mitigate exfiltration risk to non-supported APIs, what network configuration should you implement?
 
 A. **Use restricted [googleapis.com](http://googleapis.com) to access Google APIs using a set of IP addresses only routable from within Google Cloud, which are advertised as routes over the Cloud Interconnect connection.**
 
@@ -124,9 +124,7 @@ Q. You are tasked with establishing a connection between your organization's on-
 - Set up access to Google Cloud APIs through private API endpoints originating from on-premises environments.
 - Ensure that Google Cloud APIs are exclusively accessed via VPC Service Controls. How would you proceed?
 
-A.
-
-**1. Set up a Dedicated Interconnect link between the on-premises environment and Google Cloud.**
+A.**1. Set up a Dedicated Interconnect link between the on-premises environment and Google Cloud.**
 **2. Configure private access using the [restricted.googleapis.com](http://restricted.googleapis.com) domains in on-premises DNS configurations.**
 
 Q. Your team is tasked with organizing the Google Cloud Platform (GCP) environment to consolidate control over networking components such as firewall rules, subnets, and routes. Additionally, there is an on-premises infrastructure requiring connectivity to GCP resources through a private VPN connection. The network security team is responsible for overseeing these networking resources. What type of networking design should your team employ to fulfill these requirements?
@@ -134,7 +132,7 @@ Q. Your team is tasked with organizing the Google Cloud Platform (GCP) environme
 A. **Shared VPC Network with a host project and service projects**
 centralize the control → Shared VPC
 
-Q. To balance the load across multiple instances running the application and ensure a secure TLS connection terminated by the Load Balancer for an application implemented on Compute Engine, accessed by clients on port 587, which type of Load Balancing should be utilized?
+Q. To balance the load across multiple instances running the application and ensure a secure **TLS connection** terminated by the Load Balancer for an application implemented on Compute Engine, accessed by clients on port 587, which type of Load Balancing should be utilized?
 
 A. **SSL Proxy Load Balancing**
 
@@ -151,7 +149,6 @@ Q. You've recently acquired a new workload, and the Web and Application (App) se
 What steps should you take to achieve this?
 
 A.
-
 **1. Re-deploy the Web and App servers with instance templates configured with respective service accounts.**
 **2. Create an allow VPC firewall rule that specifies the target/source with respective service accounts.**
 
