@@ -306,9 +306,7 @@ A. **Cloud BigQuery**
 
 Q. To achieve a consolidated log view of all development cloud projects in your SIEM, your team needs to address projects within the NONPROD organization folder, alongside test and pre-production projects. These development projects share the ABC-BILLING billing account with the wider organization. What logging export strategy should be employed to fulfill these requirements?
 
-A.
-
-**1. Export logs in each dev project to a Cloud Pub/Sub topic in a dedicated SIEM project.**
+A. **1. Export logs in each dev project to a Cloud Pub/Sub topic in a dedicated SIEM project.**
 
 **2. Subscribe SIEM to the topic.**
 
@@ -317,9 +315,11 @@ Q. TrendyTech recently experienced a security incident where an unauthorized use
 A. Leverage Cloud Identity & Access Management (IAM) to define separate roles with granular permissions for different user groups like developers, QA testers, and database administrators.
 
 Q.A mobile workforce uses a variety of devices to access cloud applications. The security team wants to grant access based on whether the device is corporate-managed and meets certain security standards. Which Access Context Manager feature should they use?
-A.Custom access levels using Common Expression Language.
+
+A. Custom access levels using Common Expression Language.
 
 Q.You want to limit network access to your GKE pods for enhanced security. Which strategies can you use?
+
 A.Utilize pod security policies to restrict privileged containers and host volume mounts.
 Implement service accounts with limited permissions for pods to access external resources.
 Configure network policies to define inbound and outbound traffic rules for pods.
