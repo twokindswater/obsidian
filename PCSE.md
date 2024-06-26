@@ -32,10 +32,10 @@ Google
 | 속도  | ~200Gbps               | 50Mbps~50Gbps        |
 - 인증 
 
-| 기능  | Identity-Aware Proxy (IAP)                    | Context-Aware Access                                |
-| --- | --------------------------------------------- | --------------------------------------------------- |
-| 목적  | IAP는 웹 애플리케이션 및 VM 인스턴스에 대한 액세스를 보호           | 접근 제어를 더 세밀하게 설정                                    |
-| 인증  | oogle 계정을 사용하여 인증하고, IAM 정책을 통해 접근 권한을 제어합니다. | 사용자 인증 외에도, 위치, 기기 보안 상태, IP 주소, 시간대 등의 컨텍스트 정보를 기반 |
+| 기능  | Identity-Aware Proxy (IAP)                     | Context-Aware Access                                |
+| --- | ---------------------------------------------- | --------------------------------------------------- |
+| 목적  | IAP는 웹 애플리케이션 및 VM 인스턴스에 대한 액세스를 보호            | 접근 제어를 더 세밀하게 설정                                    |
+| 인증  | google 계정을 사용하여 인증하고, IAM 정책을 통해 접근 권한을 제어합니다. | 사용자 인증 외에도, 위치, 기기 보안 상태, IP 주소, 시간대 등의 컨텍스트 정보를 기반 |
 
 ---
 
@@ -247,19 +247,14 @@ Q. A customer's organization comprises multiple business units, each functioning
 
 A. **Create an organization node, and assign folders for each business unit.**
 
-Q.
-
-You are assigned the responsibility of exporting and auditing security logs for login activity events in the Google Cloud console and API calls that modify configurations to Google Cloud resources. The export must adhere to the following specifications:
+Q. You are assigned the responsibility of exporting and auditing security logs for login activity events in the Google Cloud console and API calls that modify configurations to Google Cloud resources. The export must adhere to the following specifications:
 
 - Export logs for all projects within the Google Cloud organization.
-    
 - Export logs in near real-time to an external SIEM.
-    
-    What actions should you take? (Choose two.)
-    
+
+What actions should you take? (Choose two.)
 
 A. **Create a Log Sink at the organization level with the includeChildren parameter, and set the destination to a Pub/Sub topic.**
-
 **Enable Google Workspace audit logs to be shared with Google Cloud in the Admin Console.**
 
 Q. How can your team centrally manage Google Cloud Platform (GCP) IAM permissions through their on-premises Active Directory Service, specifically focusing on permission management based on Active Directory group membership?
@@ -285,16 +280,13 @@ A. **Use the Organization Policy Service to create a compute.trustedimageProject
 Q. When constructing a secure container image, what are the two elements that you should include in the build whenever feasible? (Choose two.)
 
 A. **Remove any unnecessary tools not needed by the app.**
-
 **Package a single app as a container.**
 
 Q. Your organization is hosting a critical healthcare application on Google Cloud. The Security Operations Center (SOC) needs to implement a solution for real-time monitoring and alerting of security incidents. Which GCP service should they leverage, considering the specific requirements and sensitivity of healthcare data?
 
 A. **Cloud Security Command Center**
 
-Q.
-
-To adhere to the directive set by the Chief Information Security Officer (CISO) in your company, which mandates the storage of business data in designated locations to meet regulatory requirements for the organization's global expansion, you have conducted a thorough analysis for implementation. The key findings are as follows:
+Q. To adhere to the directive set by the Chief Information Security Officer (CISO) in your company, which mandates the storage of business data in designated locations to meet regulatory requirements for the organization's global expansion, you have conducted a thorough analysis for implementation. The key findings are as follows:
 
 - The relevant services fall within the purview of the Google Cloud Data Residency Terms.
 - Business data is confined to specific locations within the same organizational framework.
