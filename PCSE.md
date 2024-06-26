@@ -208,7 +208,7 @@ Q. How can you enhance the security of your CI/CD cluster hosted on Compute Engi
 
 A. **Create a custom service account for the cluster. Enable the constraints/iam.disableServiceAccountKeyCreation organization policy at the project level**
 
-Q.Your organization is adopting a microservices architecture on GCP, and you want to ensure secure communication between microservices running in different clusters. Which GCP service can you leverage to establish a private and secure connection between these microservices?
+Q.Your organization is adopting a microservices architecture on GCP, and you want to ensure secure communication between microservices running in **different clusters**. Which GCP service can you leverage to establish a private and secure connection between these microservices?
 
 A. **Anthos Service Mesh**
 
