@@ -231,7 +231,7 @@ Q. In a scenario where an organization is experiencing a rise in phishing emails
 
 A. **Multifactor Authentication**
 
-Q. As a member of the security team in an organization, tasked with securing a GCP project that includes credit card payment processing systems, web applications, and data processing systems, your goal is to minimize the scope of systems subject to PCI audit standards. What steps should you take to achieve this objective?
+Q. As a member of the security team in an organization, tasked with securing a GCP project that includes credit card payment processing systems, web applications, and data processing systems, your goal is to **minimize the scope** of systems subject to PCI audit standards. What steps should you take to achieve this objective?
 
 A. **Move the cardholder data environment into a separate GCP project.**
 
@@ -243,7 +243,7 @@ Q. Your multi-cloud environment involves integrating on-premises systems with GC
 
 A. dedicated interconnect
 
-Q.A customer's organization comprises multiple business units, each functioning autonomously with its own engineering group. Our team aims to gain visibility into all company projects and seeks to structure Google Cloud Platform (GCP) projects according to distinct business units. Additionally, each business unit requires its own specific sets of IAM permissions.
+Q. A customer's organization comprises multiple business units, each functioning autonomously with its own engineering group. Our team aims to gain visibility into all company projects and seeks to structure Google Cloud Platform (GCP) projects according to distinct business units. Additionally, each business unit requires its own specific sets of IAM permissions.
 
 A. **Create an organization node, and assign folders for each business unit.**
 
