@@ -62,8 +62,7 @@ Udemy
 | 특징/장점/단점  | Google-managed encryption keys | Customer-managed encryption keys (CMEK) |
 | --------- | ------------------------------ | --------------------------------------- |
 | 키 회전 및 폐기 | 자동                             | 사용자 설정                                  |
-|           |                                |                                         |
-|           |                                |                                         |
+
 
 - To avoid individual management of access for each object →Uniform bucket-level access
 
