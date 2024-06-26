@@ -304,7 +304,6 @@ A. **Cloud BigQuery**
 Q. To achieve a consolidated log view of all development cloud projects in your SIEM, your team needs to address projects within the NONPROD organization folder, alongside test and pre-production projects. These development projects share the ABC-BILLING billing account with the wider organization. What logging export strategy should be employed to fulfill these requirements?
 
 A. **1. Export logs in each dev project to a Cloud Pub/Sub topic in a dedicated SIEM project.**
-
 **2. Subscribe SIEM to the topic.**
 
 Q. TrendyTech recently experienced a security incident where an unauthorized user accessed internal resources. To prevent similar incidents, you need to implement a more robust access control strategy for Cloud SQL. What is the best approach considering TrendyTech's existing application architecture and user groups?
