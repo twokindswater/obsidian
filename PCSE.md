@@ -327,24 +327,29 @@ Configure network policies to define inbound and outbound traffic rules for pods
 Q."TrendyTech," the rapidly growing e-commerce platform, needs to manage access to sensitive customer data stored in Cloud Storage buckets. Their development team requires read access for analytics, while customer support needs limited read access for order-related tasks. Choose the best solutions for each scenario:
 
 To ensure auditability and maintain a record of user activity within Cloud Storage buckets, TrendyTech should:
+
 A. Enable Cloud Logging for centralized logging of all bucket access attempts and data modifications.
 
-Q.**Company "FinTech Solutions" exposes financial APIs through Cloud API Gateway and needs to balance security with performance. Choose the best approach for each situation:**
+Q. **Company "FinTech Solutions" exposes financial APIs through Cloud API Gateway and needs to balance security with performance. Choose the best approach for each situation:**
 
 "FinTech Solutions" relies heavily on API keys for user authentication. How can they mitigate the risks associated with API keys?
 A. Encrypt API keys in transit using HTTPS but store them unencrypted at rest within the application.
 Rotate API keys regularly and implement short-lived access tokens to minimize exposure time.
 
 Q. You need to ensure that incident response activities are logged and audited for compliance purposes. What GCP service provides detailed audit logs for incident response activities?
+
 A. Cloud Security Command Center (Cloud SCC)
 
-Q.A cloud security manager wants to audit who has permission to delete virtual machines in a specific Google Cloud project. They need to identify all principals with this capability. Which feature of Policy Analyzer should they utilize to find this information?
+Q.A cloud security manager wants to audit who has **permission to delete** virtual machines in a specific Google Cloud project. They need to identify all principals with this capability. Which feature of Policy Analyzer should they utilize to find this information?
+
 A. Run a query specifying the permission for VM deletion and the project scope.
 
 Q.Your company stores sensitive financial data in Cloud Storage buckets. To comply with industry regulations and protect data at rest, what should you implement?
+
 A.Server-side encryption with Cloud Key Management Service (KMS) for centralized key management.
 
 Q. Your company develops and deploys microservices using Google Kubernetes Engine (GKE). To protect container images from unauthorized access and tampering, what security measures should you prioritize?
+
 A. Store container images in Cloud Storage buckets with no public access for easy deployment.
 Encrypt container images with Cloud Key Management Service (KMS) before storing them in the Container Registry.
 Implement Binary Authorization to enforce image signature verification before deployment.
@@ -353,7 +358,7 @@ Q. You need to ensure that an Azure VM using a managed identity can obtain Googl
 A. The managed identity ID.
 
 Q. Your project requires automated tools to use credentials from an AWS EC2 instance to access Google Cloud services. How can these tools automatically obtain the external credentials?
-A. Through a credential configuration file that points to the workload identity pool and provider.
+A. Through a credential configuration file that points to the **workload identity pool** and provider.
 
 Q. Your organization is deploying applications on GKE across multiple regions, and you want to ensure low-latency communication between clusters. What GCP service can you use to connect GKE clusters in different regions securely?
 A. Anthos Service Mesh
