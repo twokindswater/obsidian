@@ -4,28 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "06bd017bfa6dc378",
-        "type": "tabs",
-        "dimension": 60.913705583756354,
-        "children": [
-          {
-            "id": "8ffef9a370976036",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PCSE.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "b1ebcd1a3e1ac459",
         "type": "tabs",
-        "dimension": 39.08629441624365,
         "children": [
           {
             "id": "7a22537d0dd75b84",
@@ -51,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -101,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3d788627c8d18185",
@@ -170,15 +152,15 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:퀵 스위처 열기": false,
-      "graph:그래프 뷰 열기": false,
-      "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
-  "active": "8ffef9a370976036",
+  "active": "d2f135101ad279da",
   "lastOpenFiles": [
     "Words.md",
     "PCSE.md"
