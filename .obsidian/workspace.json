@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PCSE.md",
-                "mode": "preview",
+                "file": "PCSE/문제.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ef3e2d879b6d1dc7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PCSE/문제.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PCSE.md",
+                "file": "PCSE/문제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PCSE.md",
+                "file": "PCSE/문제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PCSE.md"
+                "file": "PCSE/문제.md"
               }
             }
           }
@@ -146,9 +159,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "8ffef9a370976036",
+  "active": "ef3e2d879b6d1dc7",
   "lastOpenFiles": [
     "Words.md",
-    "PCSE.md"
+    "PCSE/이론.md",
+    "PCSE/문제.md",
+    "PCSE"
   ]
 }
