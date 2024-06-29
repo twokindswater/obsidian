@@ -16,11 +16,15 @@
             }
           },
           {
-            "id": "3faf8bbc38f49601",
+            "id": "1e5e615fcdc1230a",
             "type": "leaf",
             "state": {
-              "type": "custom-frames-todoist",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Tasks.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -98,6 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Tasks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +141,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Tasks.md"
+              }
             }
           }
         ]
@@ -158,12 +166,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c7fa7c232d5a5ac5",
+  "active": "1e5e615fcdc1230a",
   "lastOpenFiles": [
+    "Tasks.md",
     "무제 폴더",
     "Excalidraw/Drawing 2024-06-29 22.24.23.excalidraw.md",
     "Words.md",
-    "무제 파일.md",
     "Excalidraw",
     "PCSE/문제.md",
     "2024-06-29.md",
