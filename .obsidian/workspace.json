@@ -6,7 +6,6 @@
       {
         "id": "06bd017bfa6dc378",
         "type": "tabs",
-        "dimension": 60.913705583756354,
         "children": [
           {
             "id": "8ffef9a370976036",
@@ -16,37 +15,6 @@
               "state": {
                 "file": "PCSE.md",
                 "mode": "preview",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "b1ebcd1a3e1ac459",
-        "type": "tabs",
-        "dimension": 39.08629441624365,
-        "children": [
-          {
-            "id": "7a22537d0dd75b84",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Words.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d2f135101ad279da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PCSE.md",
-                "mode": "source",
                 "source": false
               }
             }
