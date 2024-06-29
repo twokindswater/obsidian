@@ -157,6 +157,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-custom-frames:Open Todoist": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
@@ -166,7 +167,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c7fa7c232d5a5ac5",
+  "active": "fb73237111f0b21e",
   "lastOpenFiles": [
     "Words.md",
     "Excalidraw/Drawing 2024-06-29 22.24.23.excalidraw.md",
