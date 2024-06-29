@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "06bd017bfa6dc378",
+        "id": "63b236dfceb2e1bc",
         "type": "tabs",
         "children": [
           {
-            "id": "8ffef9a370976036",
+            "id": "4a0e696d26ca3ac5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PCSE/문제.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ef3e2d879b6d1dc7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PCSE/문제.md",
+                "file": "Words.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 299.5
   },
   "right": {
     "id": "3d788627c8d18185",
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PCSE/문제.md",
+                "file": "Words.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PCSE/문제.md",
+                "file": "Words.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PCSE/문제.md"
+                "file": "Words.md"
               }
             }
           }
@@ -159,13 +146,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "ef3e2d879b6d1dc7",
+  "active": "4a0e696d26ca3ac5",
   "lastOpenFiles": [
-    "PCSE/이론.md",
     "PCSE/문제.md",
+    "2024-06-29.md",
+    "무제 파일.canvas",
+    "무제 파일 2.md",
+    "무제 파일 1.md",
+    "무제 파일.md",
+    "PCSE/이론.md",
     "Task.md",
     "2024-W26.md",
-    "2024-06-29.md",
     "Words.md",
     "PCSE"
   ]
