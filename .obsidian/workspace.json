@@ -10,25 +10,14 @@
           {
             "id": "ae65dcec25cbb9b7",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "custom-frames-googlecalender",
-              "state": {}
-            }
-          },
-          {
-            "id": "1e5e615fcdc1230a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tasks.md",
-                "mode": "source",
-                "source": false
-              }
+              "state": {},
+              "pinned": true
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +91,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +107,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tasks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,9 +128,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Tasks.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -166,7 +151,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1e5e615fcdc1230a",
+  "active": "ae65dcec25cbb9b7",
   "lastOpenFiles": [
     "Tasks.md",
     "무제 폴더",
