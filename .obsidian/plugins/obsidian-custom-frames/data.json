@@ -13,12 +13,12 @@
       "customJs": ""
     },
     {
-      "url": "",
+      "url": "https://calendar.google.com/calendar/u/0/r",
       "displayName": "GoogleCalender",
       "icon": "calender",
       "hideOnMobile": true,
-      "addRibbonIcon": false,
-      "openInCenter": false,
+      "addRibbonIcon": true,
+      "openInCenter": true,
       "zoomLevel": 1,
       "forceIframe": false,
       "customCss": "",
