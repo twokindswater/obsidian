@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fb73237111f0b21e",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-06-29 22.24.23.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -64,6 +75,14 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "12d7edd740d7ccc2",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
           }
         ]
       }
@@ -85,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Words.md",
+                "file": "Excalidraw/Drawing 2024-06-29 22.24.23.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Words.md",
+                "file": "Excalidraw/Drawing 2024-06-29 22.24.23.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Words.md"
+                "file": "Excalidraw/Drawing 2024-06-29 22.24.23.excalidraw.md"
               }
             }
           }
@@ -143,11 +162,15 @@
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "command-palette:명령어 팔레트 열기": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4a0e696d26ca3ac5",
+  "active": "c7fa7c232d5a5ac5",
   "lastOpenFiles": [
+    "Words.md",
+    "Excalidraw/Drawing 2024-06-29 22.24.23.excalidraw.md",
+    "Excalidraw",
     "PCSE/문제.md",
     "2024-06-29.md",
     "무제 파일.canvas",
@@ -157,7 +180,6 @@
     "PCSE/이론.md",
     "Task.md",
     "2024-W26.md",
-    "Words.md",
     "PCSE"
   ]
 }
