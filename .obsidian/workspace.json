@@ -11,11 +11,28 @@
             "id": "3e7487ba095bae1a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "PCSE.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "441e904bd5dfe3a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Petcare/Azure.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3d788627c8d18185",
@@ -81,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Petcare/Azure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Petcare/Azure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +138,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Petcare/Azure.md"
+              }
             }
           }
         ]
@@ -138,9 +160,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3e7487ba095bae1a",
+  "active": "441e904bd5dfe3a9",
   "lastOpenFiles": [
-    "Words.md",
-    "PCSE.md"
+    "PCSE.md",
+    "Petcare/Azure.md",
+    "Petcare",
+    "Words.md"
   ]
 }
