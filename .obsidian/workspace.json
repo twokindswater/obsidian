@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8380b4559e6af6be",
+        "id": "7c221e38514c19c9",
         "type": "tabs",
         "children": [
           {
-            "id": "fc103832f932e78a",
+            "id": "3e7487ba095bae1a",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -65,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "3d788627c8d18185",
@@ -139,7 +138,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fc103832f932e78a",
+  "active": "3e7487ba095bae1a",
   "lastOpenFiles": [
     "Words.md",
     "PCSE.md"
