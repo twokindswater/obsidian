@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PCSE.md",
+                "file": "Petcare/이원화망.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "3d788627c8d18185",
@@ -99,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Petcare/Recommend system.md",
+                "file": "Petcare/이원화망.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Petcare/Recommend system.md",
+                "file": "Petcare/이원화망.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Petcare/Recommend system.md"
+                "file": "Petcare/이원화망.md"
               }
             }
           }
@@ -160,12 +158,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "441e904bd5dfe3a9",
+  "active": "3e7487ba095bae1a",
   "lastOpenFiles": [
     "Petcare/TODO.md",
+    "Petcare/이원화망.md",
     "Petcare/Recommend system.md",
-    "Petcare/Azure.md",
     "PCSE.md",
+    "Petcare/Azure.md",
     "Petcare",
     "Words.md"
   ]
