@@ -1,0 +1,29 @@
+{
+  "frames": [
+    {
+      "url": "https://app.todoist.com/app/project/petcare-2335440690",
+      "displayName": "Todoist",
+      "icon": "list-checks",
+      "hideOnMobile": true,
+      "addRibbonIcon": true,
+      "openInCenter": true,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": "",
+      "customJs": ""
+    },
+    {
+      "url": "https://calendar.google.com/calendar/u/0/r",
+      "displayName": "GoogleCalender",
+      "icon": "calender",
+      "hideOnMobile": true,
+      "addRibbonIcon": true,
+      "openInCenter": true,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": "",
+      "customJs": ""
+    }
+  ],
+  "padding": 5
+}
