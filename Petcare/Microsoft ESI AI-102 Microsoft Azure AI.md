@@ -13,6 +13,11 @@ https://learn.microsoft.com/ko-kr/certifications/
 # Learn Profile
 https://learn.microsoft.com/ko-kr/users/me
 
+# 실습
+
+https://microsoftlearning.github.io/mslearn-ai-services/
+
+
 
 Q. Azure AI Service 랑 Azure OpenAI랑 다른점이 몬가요?
 - AI Studio site 도 다름
