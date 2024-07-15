@@ -14,3 +14,6 @@ https://learn.microsoft.com/ko-kr/certifications/
 https://learn.microsoft.com/ko-kr/users/me
 
 
+Q. Azure AI 서비스랑 Azure OpenAI랑 다른점이 몬가요?
+- AI Studio site 도 다름
+
