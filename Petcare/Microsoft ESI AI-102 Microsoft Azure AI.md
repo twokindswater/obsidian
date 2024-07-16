@@ -15,10 +15,11 @@ https://learn.microsoft.com/ko-kr/users/me
 
 # 실습
 
+AI 
 https://microsoftlearning.github.io/mslearn-ai-services/
 
+Vision
+https://microsoftlearning.github.io/mslearn-ai-vision/
 
 
-Q. Azure AI Service 랑 Azure OpenAI랑 다른점이 몬가요?
-- AI Studio site 도 다름
 
