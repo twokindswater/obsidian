@@ -21,5 +21,7 @@ https://microsoftlearning.github.io/mslearn-ai-services/
 Vision
 https://microsoftlearning.github.io/mslearn-ai-vision/
 
+Language
+https://microsoftlearning.github.io/mslearn-ai-language
 
 
