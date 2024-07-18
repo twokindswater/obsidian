@@ -25,3 +25,8 @@ Language
 https://microsoftlearning.github.io/mslearn-ai-language
 
 
+OpenAI
+https://microsoftlearning.github.io/mslearn-openai/
+
+Knowledge-mining
+https://microsoftlearning.github.io/mslearn-knowledge-mining/
