@@ -32,5 +32,6 @@ https://microsoftlearning.github.io/mslearn-openai/
 ### Knowledge-mining
 https://microsoftlearning.github.io/mslearn-knowledge-mining/
 
-### document-intellijence
+### document-intelligence
 https://microsoftlearning.github.io/mslearn-ai-document-intelligence/
+
