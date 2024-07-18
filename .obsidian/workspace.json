@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Petcare/Microsoft ESI AI-102 Microsoft Azure AI.md",
+                "file": "Petcare/Azure.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Petcare/Microsoft ESI AI-102 Microsoft Azure AI.md",
+                "file": "Petcare/Azure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Petcare/Microsoft ESI AI-102 Microsoft Azure AI.md",
+                "file": "Petcare/Azure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Petcare/Microsoft ESI AI-102 Microsoft Azure AI.md"
+                "file": "Petcare/Azure.md"
               }
             }
           }
@@ -186,9 +186,9 @@
   },
   "active": "655dad255055f4df",
   "lastOpenFiles": [
+    "Petcare/Microsoft ESI AI-102 Microsoft Azure AI.md",
     "Petcare/Google Map API.md",
     "Petcare/이원화망.md",
-    "Petcare/Microsoft ESI AI-102 Microsoft Azure AI.md",
     "Petcare/Azure.md",
     "Petcare/Recommend system.md",
     "Petcare/TODO.md",

@@ -3,7 +3,9 @@ cssclasses:
   - my_style_width_100
 ---
 
+
 ## 가격 책정 세부 정보:
+https://azure.microsoft.com/ko-kr/pricing/details/cognitive-services/openai-service/
 
 지역: 일본동부
 통화: 대한민국(원)
