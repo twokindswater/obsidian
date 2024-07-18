@@ -13,20 +13,25 @@ https://learn.microsoft.com/ko-kr/certifications/
 # Learn Profile
 https://learn.microsoft.com/ko-kr/users/me
 
-# 실습
 
-AI 
+# 실습
+---
+
+### AI 
 https://microsoftlearning.github.io/mslearn-ai-services/
 
-Vision
+### Vision
 https://microsoftlearning.github.io/mslearn-ai-vision/
 
-Language
+### Language
 https://microsoftlearning.github.io/mslearn-ai-language
 
-
-OpenAI
+### OpenAI
 https://microsoftlearning.github.io/mslearn-openai/
 
-Knowledge-mining
+### Knowledge-mining
 https://microsoftlearning.github.io/mslearn-knowledge-mining/
+
+### document-intelligence
+https://microsoftlearning.github.io/mslearn-ai-document-intelligence/
+
