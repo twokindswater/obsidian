@@ -31,4 +31,3 @@ https://azure.microsoft.com/ko-kr/pricing/details/cognitive-services/openai-serv
 | GPT-3.5-Turbo-1106 | 16K  | N/A            | N/A            |
 
 
-[Microsoft ESI AI-102 Microsoft Azure AI]
