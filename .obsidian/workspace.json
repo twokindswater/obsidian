@@ -114,7 +114,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3d788627c8d18185",
@@ -194,7 +195,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "268e9522dd8967d7",
+  "active": "c7fa7c232d5a5ac5",
   "lastOpenFiles": [
     "Excalidraw/NanumGeumEunBoHwa.ttf",
     "Petcare/Azure.md",
