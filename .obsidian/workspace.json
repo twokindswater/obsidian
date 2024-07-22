@@ -49,9 +49,11 @@
             "id": "268e9522dd8967d7",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/PCP-Azure.md"
+                "file": "Petcare/인터뷰.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -114,8 +116,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "3d788627c8d18185",
@@ -131,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/PCP-Azure.md",
+                "file": "Petcare/인터뷰.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/PCP-Azure.md",
+                "file": "Petcare/인터뷰.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/PCP-Azure.md"
+                "file": "Petcare/인터뷰.md"
               }
             }
           }
@@ -195,11 +196,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c7fa7c232d5a5ac5",
+  "active": "268e9522dd8967d7",
   "lastOpenFiles": [
+    "Excalidraw/PCP-Azure.md",
     "Excalidraw/NanumGeumEunBoHwa.ttf",
     "Petcare/Azure.md",
-    "Excalidraw/PCP-Azure.md",
     "Excalidraw/Drawing 2024-06-29 22.24.23.excalidraw.md",
     "Petcare/Recommend system.md",
     "Petcare/Microsoft ESI AI-102 Microsoft Azure AI.md",
