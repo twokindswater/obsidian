@@ -59,14 +59,28 @@
             "id": "2a1520bf06fe5ff9",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/DiaryFlow.md"
+                "file": "Words.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "776bde9927d832ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Petcare/Azure.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -124,8 +138,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "3d788627c8d18185",
@@ -141,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/DiaryFlow.md",
+                "file": "Petcare/Azure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/DiaryFlow.md",
+                "file": "Petcare/Azure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/DiaryFlow.md"
+                "file": "Petcare/Azure.md"
               }
             }
           }
@@ -205,15 +218,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c7fa7c232d5a5ac5",
+  "active": "776bde9927d832ff",
   "lastOpenFiles": [
+    "Excalidraw/Azure.md",
+    "Words.md",
+    "Untitled.canvas",
     "Excalidraw/PCP-Azure.md",
     "Excalidraw/DiaryFlow.md",
+    "Petcare/이원화망.md",
     "Excalidraw/Untitled.canvas",
     "Petcare/Microsoft ESI AI-102 Microsoft Azure AI.md",
     "Petcare/UI.md",
     "Petcare/인터뷰.md",
-    "Petcare/이원화망.md",
     "Excalidraw/NanumGeumEunBoHwa.ttf",
     "Petcare/Azure.md",
     "Excalidraw/Drawing 2024-06-29 22.24.23.excalidraw.md",
@@ -221,7 +237,6 @@
     "Petcare/Google Map API.md",
     "Petcare/TODO.md",
     "PCSE.md",
-    "Petcare",
-    "Words.md"
+    "Petcare"
   ]
 }

@@ -32,3 +32,7 @@ https://azure.microsoft.com/ko-kr/pricing/details/cognitive-services/openai-serv
 | GPT-3.5-Turbo-1106 | 16K  | N/A            | N/A            |
 
 
+Identity
+시스템 할당 ID는 앱에 연결되어 있으며 앱이 삭제되면 삭제됩니다. 앱에는 하나의 시스템 할당 ID만 있을 수 있습니다.
+사용자 할당 ID는 앱에 할당할 수 있는 독립 실행형 Azure 리소스입니다. 앱에는 여러 사용자 할당 ID가 있을 수 있으며, 하나의 사용자 할당 ID를 두 개의 App Service 앱과 같은 여러 Azure 리소스에 할당할 수 있습니다.
+
