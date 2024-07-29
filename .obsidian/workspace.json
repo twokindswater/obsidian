@@ -71,11 +71,9 @@
             "id": "776bde9927d832ff",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Petcare/Azure.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/DiaryFlow.md"
               }
             }
           }
@@ -154,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Petcare/Azure.md",
+                "file": "Excalidraw/DiaryFlow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Petcare/Azure.md",
+                "file": "Excalidraw/DiaryFlow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Petcare/Azure.md"
+                "file": "Excalidraw/DiaryFlow.md"
               }
             }
           }
@@ -220,10 +218,11 @@
   },
   "active": "776bde9927d832ff",
   "lastOpenFiles": [
+    "Excalidraw/PCP-Azure.md",
+    "Petcare/Azure.md",
     "Excalidraw/Azure.md",
     "Words.md",
     "Untitled.canvas",
-    "Excalidraw/PCP-Azure.md",
     "Excalidraw/DiaryFlow.md",
     "Petcare/이원화망.md",
     "Excalidraw/Untitled.canvas",
@@ -231,7 +230,6 @@
     "Petcare/UI.md",
     "Petcare/인터뷰.md",
     "Excalidraw/NanumGeumEunBoHwa.ttf",
-    "Petcare/Azure.md",
     "Excalidraw/Drawing 2024-06-29 22.24.23.excalidraw.md",
     "Petcare/Recommend system.md",
     "Petcare/Google Map API.md",
