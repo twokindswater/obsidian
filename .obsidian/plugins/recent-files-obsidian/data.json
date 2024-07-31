@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Microsoft ESI AI-102 Microsoft Azure AI",
+      "path": "Petcare/Microsoft ESI AI-102 Microsoft Azure AI.md"
+    },
+    {
+      "basename": "Google Map API",
+      "path": "Petcare/Google Map API.md"
+    },
+    {
       "basename": "DiaryFlow",
       "path": "Excalidraw/DiaryFlow.md"
     },
@@ -25,10 +33,6 @@
       "path": "Petcare/이원화망.md"
     },
     {
-      "basename": "Microsoft ESI AI-102 Microsoft Azure AI",
-      "path": "Petcare/Microsoft ESI AI-102 Microsoft Azure AI.md"
-    },
-    {
       "basename": "UI",
       "path": "Petcare/UI.md"
     },
@@ -39,10 +43,6 @@
     {
       "basename": "Recommend system",
       "path": "Petcare/Recommend system.md"
-    },
-    {
-      "basename": "Google Map API",
-      "path": "Petcare/Google Map API.md"
     }
   ],
   "omittedPaths": []

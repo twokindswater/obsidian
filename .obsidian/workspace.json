@@ -71,9 +71,11 @@
             "id": "776bde9927d832ff",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/DiaryFlow.md"
+                "file": "Petcare/Microsoft ESI AI-102 Microsoft Azure AI.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -152,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/DiaryFlow.md",
+                "file": "Petcare/Microsoft ESI AI-102 Microsoft Azure AI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/DiaryFlow.md",
+                "file": "Petcare/Microsoft ESI AI-102 Microsoft Azure AI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/DiaryFlow.md"
+                "file": "Petcare/Microsoft ESI AI-102 Microsoft Azure AI.md"
               }
             }
           }
@@ -218,12 +220,13 @@
   },
   "active": "776bde9927d832ff",
   "lastOpenFiles": [
+    "Petcare/Google Map API.md",
+    "Excalidraw/DiaryFlow.md",
     "Excalidraw/PCP-Azure.md",
     "Petcare/Azure.md",
     "Excalidraw/Azure.md",
     "Words.md",
     "Untitled.canvas",
-    "Excalidraw/DiaryFlow.md",
     "Petcare/이원화망.md",
     "Excalidraw/Untitled.canvas",
     "Petcare/Microsoft ESI AI-102 Microsoft Azure AI.md",
@@ -232,7 +235,6 @@
     "Excalidraw/NanumGeumEunBoHwa.ttf",
     "Excalidraw/Drawing 2024-06-29 22.24.23.excalidraw.md",
     "Petcare/Recommend system.md",
-    "Petcare/Google Map API.md",
     "Petcare/TODO.md",
     "PCSE.md",
     "Petcare"
