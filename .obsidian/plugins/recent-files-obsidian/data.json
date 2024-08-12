@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "데이터",
+      "path": "Petcare/데이터.md"
+    },
+    {
+      "basename": "UI",
+      "path": "Petcare/UI.md"
+    },
+    {
+      "basename": "Azure",
+      "path": "Petcare/Azure.md"
+    },
+    {
       "basename": "삼성화재 Test",
       "path": "Petcare/삼성화재 Test.md"
     },
@@ -22,10 +34,6 @@
     },
     {
       "basename": "Azure",
-      "path": "Petcare/Azure.md"
-    },
-    {
-      "basename": "Azure",
       "path": "Excalidraw/Azure.md"
     },
     {
@@ -35,10 +43,6 @@
     {
       "basename": "이원화망",
       "path": "Petcare/이원화망.md"
-    },
-    {
-      "basename": "UI",
-      "path": "Petcare/UI.md"
     },
     {
       "basename": "인터뷰",

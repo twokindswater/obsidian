@@ -7,5 +7,6 @@
   "obsidian-custom-frames",
   "todoist-sync-plugin",
   "obsidian-tasks-plugin",
-  "dataview"
+  "dataview",
+  "templater-obsidian"
 ]

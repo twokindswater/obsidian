@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Petcare/삼성화재 Test.md",
+                "file": "Petcare/데이터.md",
                 "mode": "source",
                 "source": false
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Petcare/삼성화재 Test.md",
+                "file": "Petcare/데이터.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Petcare/삼성화재 Test.md",
+                "file": "Petcare/데이터.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Petcare/삼성화재 Test.md"
+                "file": "Petcare/데이터.md"
               }
             }
           }
@@ -215,23 +215,25 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "776bde9927d832ff",
   "lastOpenFiles": [
-    "Petcare/Microsoft ESI AI-102 Microsoft Azure AI.md",
+    "Petcare/UI.md",
+    "Petcare/데이터.md",
+    "Petcare/Azure.md",
     "Petcare/삼성화재 Test.md",
+    "Petcare/Microsoft ESI AI-102 Microsoft Azure AI.md",
     "Petcare/Google Map API.md",
     "Excalidraw/DiaryFlow.md",
     "Excalidraw/PCP-Azure.md",
-    "Petcare/Azure.md",
     "Excalidraw/Azure.md",
     "Words.md",
     "Untitled.canvas",
     "Petcare/이원화망.md",
     "Excalidraw/Untitled.canvas",
-    "Petcare/UI.md",
     "Petcare/인터뷰.md",
     "Excalidraw/NanumGeumEunBoHwa.ttf",
     "Excalidraw/Drawing 2024-06-29 22.24.23.excalidraw.md",
