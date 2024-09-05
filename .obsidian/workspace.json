@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Petcare/Microsoft ESI AI-102 Microsoft Azure AI.md",
+                "file": "Petcare/데이터.md",
                 "mode": "source",
                 "source": false
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Petcare/Microsoft ESI AI-102 Microsoft Azure AI.md",
+                "file": "Petcare/데이터.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Petcare/Microsoft ESI AI-102 Microsoft Azure AI.md",
+                "file": "Petcare/데이터.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Petcare/Microsoft ESI AI-102 Microsoft Azure AI.md"
+                "file": "Petcare/데이터.md"
               }
             }
           }
@@ -221,11 +221,11 @@
   },
   "active": "776bde9927d832ff",
   "lastOpenFiles": [
+    "Petcare/Microsoft ESI AI-102 Microsoft Azure AI.md",
     "Petcare/데이터.md",
     "Petcare/UI.md",
     "Petcare/Azure.md",
     "Petcare/삼성화재 Test.md",
-    "Petcare/Microsoft ESI AI-102 Microsoft Azure AI.md",
     "Petcare/Google Map API.md",
     "Excalidraw/DiaryFlow.md",
     "Excalidraw/PCP-Azure.md",
