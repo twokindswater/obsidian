@@ -39,3 +39,5 @@ variation : 전달 받은 파일을 변형
 prompt 로 image 생성해야 됨. 
 - pet breed, age, 성별 정보를 얻어 올 수 있어야 됨.
 - AI diary 정보를 이용해서 prompt 작성. 
+
+3.. 
