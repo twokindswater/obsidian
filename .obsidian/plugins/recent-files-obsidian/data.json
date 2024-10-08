@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "데이터",
+      "path": "Petcare/데이터.md"
+    },
+    {
       "basename": "TODO",
       "path": "Petcare/TODO.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "Azure",
       "path": "Petcare/Azure.md"
-    },
-    {
-      "basename": "데이터",
-      "path": "Petcare/데이터.md"
     },
     {
       "basename": "Microsoft ESI AI-102 Microsoft Azure AI",
