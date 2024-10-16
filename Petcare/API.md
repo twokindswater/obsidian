@@ -12,7 +12,7 @@ AI specialist 교육 일정확인.
 
 
 해야될일.
-1. Image prompt 작성 가능하도록 API 
+1. Image prompt 작성 가능하도록 API : OK
 2. place 
 	1. 현재 위치로 가능?
 	2. 사진을 대체할 수 있음?
